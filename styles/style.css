@@ -1,0 +1,772 @@
+@charset "UTF-8";
+/******************************************************************
+
+Stylesheet: ベーススタイル
+
+******************************************************************/
+body {
+  font-family: 'Kameron','Noto Sans JP', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.font-sm {
+  font-size: 14px;
+}
+
+.font-md {
+  font-size: 17px;
+}
+
+.font-lr {
+  font-size: 17px;
+}
+
+.font-lg {
+  font-size: 25px;
+}
+
+.mb-sm {
+  margin-bottom: 16px !important;
+}
+
+.mb-lg {
+  margin-bottom: 80px !important;
+}
+
+.pb-sm {
+  padding-bottom: 16px !important;
+}
+
+.pb-lg {
+  padding-bottom: 80px !important;
+}
+
+.content-width {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1070px;
+}
+
+@media (min-width: 500px) {
+  header {
+    position: relative;
+    background-image: url("https://beiz.jp/images_T/white/white_00081.jpg");
+    background-size: cover;
+    height: 600px;
+  }
+  header .top {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    height: 50px;
+  }
+  header .main {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 400px;
+  }
+  header .bottom {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 500px;
+  }
+  header .last {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 400px;
+    height: 100px;
+  }
+  header .last:hover {
+    opacity: 0.7;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  .own {
+    position: relative;
+    top: 200px;
+  }
+  .own .challenge {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .own .old {
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    height: 230px;
+  }
+  .own .pinch {
+    position: absolute;
+    top: 590px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 360px;
+  }
+  .two {
+    background-image: url("https://beiz.jp/images_T/white/white_00081.jpg");
+    position: relative;
+    top: 900px;
+    height: 650px;
+  }
+  .two .Pinch {
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 340px;
+    height: 130px;
+  }
+  .two .flex {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .two .flex .a {
+    width: 700px;
+    padding-top: 10px;
+  }
+  .three {
+    position: relative;
+    top: 300px;
+  }
+  .three .red {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .three .find {
+    position: absolute;
+    top: 950px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .three .video {
+    position: absolute;
+    top: 1205px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .three .wow {
+    position: absolute;
+    top: 1400px;
+    left: 50%;
+    -webkit-transform: translate(-60%, -50%);
+            transform: translate(-60%, -50%);
+    width: 300px;
+  }
+  .three .purple {
+    position: absolute;
+    top: 1750px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 370px;
+  }
+  .four {
+    position: relative;
+    top: 2220px;
+    height: 980px;
+    background-image: url("https://www.colordic.org/image/eae8e1.png");
+  }
+  .four .tred {
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .four .title {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 330px;
+  }
+  .four .cat {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .four .btn {
+    position: absolute;
+    top: 820px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .four .btn:hover {
+    opacity: 0.7;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  .five {
+    position: relative;
+    top: 2220px;
+    background-image: url("https://pictkan.com/uploads/cache/1251982029/lipstick-791761_1920-400x270-MM-100.jpg");
+    background-size: cover;
+    height: 450px;
+  }
+  .five .love {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .five .ten-year {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 330px;
+  }
+  .six {
+    position: relative;
+    top: 2200px;
+    height: 200px;
+    background-image: url("https://girlydrop.com/wp-content/uploads/post/p1488.jpg");
+  }
+  .six .like {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 372px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+  }
+  .seven {
+    position: relative;
+    top: 2200px;
+    background-image: url("https://www.beiz.jp/images_M/twinkle/twinkle_00284.jpg");
+    height: 2000px;
+    background-size: cover;
+  }
+  .seven .happy {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 320px;
+  }
+  .seven .flex {
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 300px;
+  }
+  .seven .flex img {
+    padding-top: 40px;
+  }
+  .eight {
+    position: relative;
+    top: 2195px;
+    height: 1200px;
+    background-image: url("https://beiz.jp/images_T/white/white_00081.jpg");
+  }
+  .eight .smell {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .eight .flower {
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .eight .really {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .eight .ex {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .eight .redy {
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .nine {
+    position: relative;
+    top: 2190px;
+    height: 850px;
+    background-image: url("https://www.colordic.org/image/eae8e1.png");
+  }
+  .nine .topic {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .nine .bin {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 340px;
+  }
+  .nine .howto {
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .nine .rip {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .nine .video {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 330px;
+  }
+  .ten {
+    position: relative;
+    top: 2100px;
+  }
+  .ten .okamoto {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .ten .child {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .ten .childen {
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .eleven {
+    position: relative;
+    top: 2900px;
+    background-image: url("https://www.colordic.org/image/eae8e1.png");
+    height: 900px;
+  }
+  .eleven .change {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 330px;
+  }
+  .eleven .blue {
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .eleven .pinch {
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  .eleven .green {
+    position: absolute;
+    top: 770px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 300px;
+  }
+  .eleven .green:hover {
+    opacity: 0.7;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  .last {
+    position: relative;
+    top: 2900px;
+    background-color: silver;
+    height: 180px;
+  }
+  .last img {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 70px;
+  }
+  .last p {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 340px;
+  }
+}
+
+@media (min-width: 807px) {
+  header {
+    height: 1100px;
+  }
+  header .top {
+    top: 50px;
+    left: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100px;
+  }
+  header .main {
+    top: 670px;
+    width: 800px;
+  }
+  header .bottom {
+    top: 400px;
+    width: 800px;
+  }
+  header .last {
+    top: 970px;
+    width: 800px;
+    height: 160px;
+  }
+  .own {
+    top: 400px;
+  }
+  .own .challenge {
+    width: 800px;
+  }
+  .own .old {
+    top: 750px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .own .pinch {
+    top: 1270px;
+    width: 1000px;
+  }
+  .two {
+    top: 1850px;
+    height: 1900px;
+  }
+  .two .Pinch {
+    width: 1000px;
+  }
+  .two .flex {
+    top: 1000px;
+  }
+  .a:nth-child(2) {
+    margin-left: 250px;
+  }
+  .three {
+    top: 1900px;
+  }
+  .three .red {
+    position: absolute;
+    top: 250px;
+    width: 800px;
+  }
+  .three .find {
+    top: 800px;
+    left: 50%;
+    width: 800px;
+  }
+  .three .video {
+    top: 1390px;
+    width: 800px;
+  }
+  .three .wow {
+    top: 1850px;
+    -webkit-transform: translate(-100%, -50%);
+            transform: translate(-100%, -50%);
+    width: 400px;
+  }
+  .three .purple {
+    top: 2350px;
+    width: 800px;
+  }
+  .four {
+    top: 4670px;
+    height: 2500px;
+  }
+  .four .tred {
+    top: 390px;
+    width: 1000px;
+  }
+  .four .title {
+    top: 950px;
+    width: 800px;
+  }
+  .four .cat {
+    top: 1750px;
+    width: 1000px;
+  }
+  .four .btn {
+    top: 2100px;
+    width: 850px;
+  }
+  .five {
+    top: 4670px;
+    height: 1000px;
+  }
+  .five .love {
+    top: 150px;
+    width: 1000px;
+  }
+  .five .ten-year {
+    top: 600px;
+    width: 800px;
+  }
+  .six {
+    top: 4670px;
+    height: 400px;
+  }
+  .six .like {
+    top: 200px;
+    width: 700px;
+    padding: 50px;
+  }
+  .seven {
+    top: 4650px;
+    height: 2200px;
+  }
+  .seven .happy {
+    top: 200px;
+    width: 800px;
+  }
+  .seven .flex {
+    top: 1150px;
+    -webkit-transform: translate(-40%, -50%);
+            transform: translate(-40%, -50%);
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 1500px;
+  }
+  .seven .flex img {
+    width: 600px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .eight {
+    top: 4700px;
+    height: 3000px;
+  }
+  .eight .smell {
+    width: 700px;
+  }
+  .eight .flower {
+    top: 500px;
+    width: 800px;
+  }
+  .eight .really {
+    top: 1000px;
+    width: 700px;
+  }
+  .eight .ex {
+    top: 1700px;
+    width: 900px;
+  }
+  .eight .redy {
+    top: 2600px;
+    width: 900px;
+  }
+  .nine {
+    top: 4700px;
+    height: 2500px;
+  }
+  .nine .topic {
+    top: 200px;
+    width: 800px;
+  }
+  .nine .bin {
+    top: 600px;
+    width: 1000px;
+  }
+  .nine .howto {
+    top: 1100px;
+    width: 800px;
+  }
+  .nine .rip {
+    top: 1500px;
+    width: 900px;
+  }
+  .nine .video {
+    top: 2150px;
+    width: 800px;
+  }
+  .ten {
+    top: 4750px;
+  }
+  .ten .okamoto {
+    width: 700px;
+  }
+  .ten .child {
+    top: 800px;
+    width: 1200px;
+  }
+  .ten .childen {
+    top: 1800px;
+    width: 1200px;
+  }
+  .eleven {
+    top: 7100px;
+    height: 2500px;
+  }
+  .eleven .change {
+    top: 500px;
+    width: 1000px;
+  }
+  .eleven .blue {
+    top: 1000px;
+    width: 700px;
+  }
+  .eleven .pinch {
+    top: 1800px;
+    width: 1000px;
+  }
+  .eleven .green {
+    top: 2140px;
+    width: 800px;
+  }
+  .last {
+    top: 7100px;
+  }
+  .last img {
+    width: 180px;
+  }
+  .last p {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /******************************************************************
+
+Stylesheet: Retinaディスプレイで適用
+
+******************************************************************/
+  /* 
+
+EXAMPLE 
+.icon {
+	background: url(images/test@2x.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+*/
+}
+
+@media print {
+  /******************************************************************
+
+Stylesheet: プリンタのみに適用
+
+******************************************************************/
+}
+/*# sourceMappingURL=style.css.map */
